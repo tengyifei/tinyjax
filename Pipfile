@@ -17,6 +17,7 @@ jax = {extras = ["cpu"], version = "*"}
 tensorflow = "*"
 ml-collections = "*"
 clu = "*"
+notebook = "*"
 
 [dev-packages]
 

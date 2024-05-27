@@ -8,5 +8,12 @@
 		"editor.formatOnSave": true,
 		"editor.defaultFormatter": "ms-python.black-formatter",
 		"editor.wordBasedSuggestions": "off",
-	}
+		"editor.indentSize": "tabSize",
+		"editor.tabSize": 2,
+	},
+	"cSpell.words": [
+		"invals",
+		"outvals",
+		"pjit"
+	]
 }
