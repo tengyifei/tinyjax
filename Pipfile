@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+numpy = "*"
+scipy = "*"
+ipynb = "*"
+flax = "*"
+tensorflow-datasets = "*"
+optax = "*"
+tqdm = "*"
+tinygrad = {ref = "5c6af9743655c1ce6865a730dc1cdf1018a8a013", git = "git+https://github.com/tinygrad/tinygrad.git"}
+jax = {extras = ["cpu"], version = "*"}
+tensorflow = "*"
+ml-collections = "*"
+clu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
